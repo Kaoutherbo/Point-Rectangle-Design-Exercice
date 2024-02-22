@@ -8,6 +8,6 @@ public class TestPoint {
         p1.setX(p1.getX() + 2);
         p1.setY(p1.getY() + 4);
 
-        System.out.println("The new coordinates of p1 before addition are : ( " + p1.getX() + ", " + p1.getY() + " )");
+        System.out.println("The new coordinates of p1 after addition are : ( " + p1.getX() + ", " + p1.getY() + " )");
     }
 }
