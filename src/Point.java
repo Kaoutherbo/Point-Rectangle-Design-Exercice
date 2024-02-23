@@ -30,11 +30,4 @@ public class Point {
         this.x = x;
         this.y = y;
     }
-
-    // Method to add the coordinates
-
-    public void AddCoordinate(float x, float y){
-        this.x += x;
-        this.y += y;
-    }
 }
