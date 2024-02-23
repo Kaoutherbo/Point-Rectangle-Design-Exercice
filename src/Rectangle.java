@@ -1,7 +1,7 @@
 public class Rectangle {
     // Attributes of Rectangle class
-    private Point bottomLeft;
-    private Point topRight;
+    Point bottomLeft;
+    Point topRight;
     private static int nbrInstance = 0; // To calculate the number of objects created by this class
 
     // Constructor taking individual coordinates
