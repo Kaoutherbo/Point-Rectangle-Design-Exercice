@@ -56,7 +56,38 @@ Implementing encapsulation, write Java code for the Point class. A point is defi
 
 Consider the Dessin class; a drawing consists of multiple rectangles. The Dessin class contains an array of rectangles, and its size is set by the constructor. A method `add(Rectangle r)` adds a rectangle `r` to the drawing, and `sum()` calculates the total area of the rectangles.
 
+### Exercise 5
 
+#### Description 📝
+
+Enter the following java code and explain the result obtained by executing it.
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        String s1 = "A";
+        String s2 = "B";
+        Rectangle p1 = new Rectangle(1, 2);
+        Rectangle p2 = new Rectangle(3, 4);
+        System.out.println("Before change: " + x + " " + y + " " + s1 + " " + s2 + " " + p1.getLength() + " " + p1.getWidth() + " " + p2.getLength() + " " + p2.getWidth());
+        change(x, y, s1, s2, p1, p2);
+        System.out.println("After change: " + x + " " + y + " " + s1 + " " + s2 + " " + p1.getLength() + " " + p1.getWidth() + " " + p2.getLength() + " " + p2.getWidth());
+    }
+    
+    public static void change(int a, int b, String n, String m, Rectangle p, Rectangle q) {
+        System.out.println("Begin of change: " + a + " " + b + " " + n + " " + m + " " + p.getLength() + " " + p.getWidth() + " " + q.getLength() + " " + q.getWidth());
+        a = 30;
+        b = 40;
+        n = "C";
+        m = "D";
+        p.setLength(10);
+        q = new Rectangle(5, 6);
+        System.out.println("End of change: " + a + " " + b + " " + n + " " + m + " " + p.getLength() + " " + p.getWidth() + " " + q.getLength() + " " + q.getWidth());
+    }
+}
+```
 ## Classes 📚
 
 ### Point.java 🔹
@@ -75,6 +106,8 @@ The `Dessin` and `Design` classes represent a drawing composed of multiple recta
 
 The `TestPoint` class is the main program used to test the functionality of the `Dessin` and `Design` classes.
 
+### Test.java 🧪
+The `Test` class  demonstrates the behavior of Java method parameter passing by value and reference. Observe how the variables x, y, s1, s2, p1, and p2 change or remain unchanged after the change method is called.
 
 
 ## Usage 🚀
@@ -94,6 +127,12 @@ The `TestPoint` class is the main program used to test the functionality of the 
 
 ## Execution 💻
 
+### For the `TestPoint.java` file:
 <img src="./Assets/1.PNG" width="100%" />
 <img src="./Assets/2.PNG" width="100%" />
+
+---
+
+### For the `Test.java` file:
+<img src="./Assets/3.PNG" width="100%" />
 

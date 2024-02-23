@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da80ab2e-0487-411b-b3cd-58b093b05b25" name="Changes" comment="Add solution of practical exercise">
-      <change beforePath="$PROJECT_DIR$/Point Exercice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Point Exercice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/TP OOP/Point Exercice",
+    "last_opened_file_path": "D:/TP OOP/Point-Rectangle-Design-Exercice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,7 +66,14 @@
       <recent name="D:\TP OOP\Point Exercice\Assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Point Exercice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPoint" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestPoint" />
       <module name="Point Exercice" />
@@ -74,6 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,6 +101,7 @@
       <workItem from="1708687180540" duration="6806000" />
       <workItem from="1708696200907" duration="12000" />
       <workItem from="1708696239175" duration="1284000" />
+      <workItem from="1708698863113" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="Add solution of practical exercise">
       <option name="closed" value="true" />
