@@ -1,21 +1,21 @@
 public class Rectangle {
     // Attributes of Rectangle class
-    Point bottomLeft;
-    Point topRight;
-    static int nbr = 0; // To calculate the number of objects created by this class
+    private Point bottomLeft;
+    private Point topRight;
+    private static int nbrInstance = 0; // To calculate the number of objects created by this class
 
     // Constructor taking individual coordinates
     public Rectangle(float x1, float y1, float x2, float y2) {
         this.bottomLeft = new Point(x1, y1);
         this.topRight = new Point(x2, y2);
-        nbr++;
+        nbrInstance++;
     }
 
     // Constructor taking Point objects
     public Rectangle(Point p1, Point p2) {
         this.bottomLeft = p1;
         this.topRight = p2;
-        nbr++;
+        nbrInstance++;
     }
 
     // Method to calculate length of the rectangle
@@ -31,6 +31,10 @@ public class Rectangle {
     // Method to calculate area of the rectangle
     public float Area(){
         return Length() * Width();
+    }
+
+    public static int getInstanceCount() {
+        return nbrInstance;
     }
 
 }
