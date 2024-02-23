@@ -94,6 +94,6 @@ The `TestPoint` class is the main program used to test the functionality of the 
 
 ## Execution 💻
 
-<img src="./Assets/1.PNG" width="100%" />
-<img src="./Assets/2.PNG" width="100%" />
+<img src="Point%20,Rectangle%20&%20Design/Assets/1.PNG" width="100%" />
+<img src="Point%20,Rectangle%20&%20Design/Assets/2.PNG" width="100%" />
 
